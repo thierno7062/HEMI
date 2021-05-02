@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/covid"
+    tools:context=".Controler.ContactActivity">
+
+    <EditText
+        android:id="@+id/st_objet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="#5676"
+        android:hint="OBJET"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="text"/>
+
+
+    <EditText
+        android:id="@+id/message"
+        android:hint="Message"
+        android:background="#5676"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/white"
+        android:minLines="8"
+        android:gravity="top"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/sendSMS"
+        android:text="ENVOYER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

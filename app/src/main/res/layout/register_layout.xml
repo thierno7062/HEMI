@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_user"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/ic_covid"
+        />
+
+    <EditText
+        android:id="@+id/et_nom"
+        android:textColor="#ffffff"
+        android:background="#11000000"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/iv_user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/tv_nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_nom"
+        android:layout_alignStart="@+id/et_nom"
+        android:layout_below="@+id/iv_user"
+        android:layout_marginTop="22dp"
+        android:text="Nom"
+        android:textColor="#FFB3B3B3"
+        android:textSize="16sp" />
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/et_reg_prenom"
+        android:textColor="#ffffff"
+        android:background="#11000000"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/et_nom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/tv_reg_prenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_nom"
+        android:layout_alignStart="@+id/et_nom"
+        android:layout_below="@+id/et_nom"
+        android:layout_marginTop="22dp"
+        android:text="Prénom"
+        android:textColor="#FFB3B3B3"
+        android:textSize="16sp" />
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/et_reg_email"
+        android:textColor="#ffffff"
+        android:background="#11000000"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/et_reg_prenom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        />
+
+    <TextView
+        android:id="@+id/tv_reg_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_name"
+        android:layout_alignStart="@+id/et_name"
+        android:layout_below="@+id/et_reg_prenom"
+        android:layout_marginTop="22dp"
+        android:text="Email"
+        android:textColor="#FFB3B3B3"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/et_reg_age"
+        android:textColor="#ffffff"
+        android:background="#11000000"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/et_reg_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:id="@+id/tv_reg_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_name"
+        android:layout_alignStart="@+id/et_name"
+        android:layout_below="@+id/et_reg_email"
+        android:layout_marginTop="22dp"
+        android:text="Age"
+        android:textColor="#FFB3B3B3"
+        android:textSize="16sp" />
+    <EditText
+        android:id="@+id/et_reg_address"
+        android:textColor="#ffffff"
+        android:background="#11000000"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/et_reg_age"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:id="@+id/tv_reg_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_name"
+        android:layout_alignStart="@+id/et_name"
+        android:layout_below="@+id/et_reg_age"
+        android:layout_marginTop="22dp"
+        android:text="Adresse"
+        android:textColor="#FFB3B3B3"
+        android:textSize="16sp" />
+
+
+    <EditText
+        android:id="@+id/et_reg_phone"
+        android:textColor="#ffffff"
+        android:background="#11000000"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/et_reg_address"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="phone"
+        />
+
+    <TextView
+        android:id="@+id/tv_reg_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_name"
+        android:layout_alignStart="@+id/et_name"
+        android:layout_below="@+id/et_reg_address"
+        android:layout_marginTop="22dp"
+        android:text="Téléphone"
+        android:textColor="#FFB3B3B3"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:background="@drawable/button_rectangle_pink"
+        android:textColor="#ffffff"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@+id/et_reg_phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="ENREGISTRER" />
+
+
+</RelativeLayout>
