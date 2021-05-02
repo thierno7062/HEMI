@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/covid"
+    tools:context=".Controler.HomeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_message_accueil"
+            android:textSize="50dp"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <Button
+            android:id="@+id/test"
+            android:layout_width="297dp"
+            android:layout_height="82dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="TEST COVID"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/result"
+            android:layout_width="330dp"
+            android:layout_height="82dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:backgroundTint="@color/md_red_900"
+            android:text="DERNIERS RESULTATS"
+            android:textSize="25dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

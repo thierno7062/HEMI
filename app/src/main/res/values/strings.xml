@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name" translatable="false">Stop Covid 19</string>
+    <string name="app_start" translatable="false">COMMENCER</string>
+    <string name="app_message_accueil">BIENVENUE DANS VOTRE APPLICATION STOP COVID 19</string>
+
+
+    <string name="true_button">OUI</string>
+
+    <string name="false_button">NON</string>
+
+    <string name="initial_score">Symptômes 0/13</string>
+
+    <string name="incorrect_toast">Wrong!</string>
+
+    <string name="correct_toast">You got it!</string>
+
+
+    <string name="question_1">Avez-vous la sensation d’être fiévreux, d’avoir des frissons comme lors d’une grippe, ou
+une fièvre mesurée avec une température prise par la bouche égale ou supérieure à
+38,1 °C (100,6 °F)?</string>
+
+    <string name="question_2">Avez-vous une perte soudaine de l’odorat sans congestion nasale (nez bouché), avec ou
+sans perte de goût?</string>
+
+    <string name="question_3">Avez-vous une toux récente ou une toux chronique aggravée depuis peu? </string>
+
+    <string name="question_4">Avez-vous de la difficulté à respirer ou êtes-vous essoufflé? </string>
+
+    <string name="question_5">Avez-vous un mal de gorge?</string>
+
+    <string name="question_6">Avez-vous le nez qui coule ou une congestion nasale (nez bouché) de cause inconnue?</string>
+
+    <string name="question_7">Avez-vous un mal de ventre</string>
+
+    <string name="question_8">Avez-vous des nausées (maux de cœur) ou vomissements.</string>
+
+    <string name="question_9">Avez-vous de la Diarrhée?</string>
+
+    <string name="question_10">Avez-vous de la fatigue intense inhabituelle sans raison évidente?</string>
+
+    <string name="question_11">Perte d’appétit importante?</string>
+
+    <string name="question_12">Avez-vous des douleurs musculaires généralisées ou courbatures inhabituelles (non liées à un effort physique) </string>
+
+    <string name="question_13">Avez-vous un mal de tête inhabituel?</string>
+
+    <string name="titre_fin_QCM">Un seul des symptômes suivants justifie une mise en quarantaine</string>
+    <string name="resultat">Bonjour cher patient, le résultat du questionnaire justifie un test positif.
+                            veillez restez chez vous et appeler les urgences via le bouton flottant çi dessus.
+    </string>
+    <string name="titre_resultat">RESULTAT DU TEST</string>
+    <string name="resultat_negatif">Bonjour cher patient, le résultat de votre test stipule que vous êtes négatif à la COVID 19 .
+        Cela dit, si vous sentez une seule de ces symptômes, veillez appeler les urgences via le bouton flottant çi dessus.
+    </string>
+
+    <string name="name">Thierno Niang</string>
+    <string name="address">Malika, Cité Sonatel</string>
+    <string name="messages">messages</string>
+    <string name="dashboard">dashboard</string>
+    <string name="map">map</string>
+    <string name="friends">friends</string>
+    <string name="feed">feed</string>
+    <string name="notification">notification</string>
+    <string name="cv">curriculum vitae</string>
+    <string name="cs">cursus universitaire</string>
+    <string name="sm">Situation matrimoniale</string>
+
+    <string name="twitterUsername">twitter.com/thierno77</string>
+    <string name="facebookUsername">\Facebook.com/thierno77</string>
+    <string name="emailUsername">thierno77@hotmail.com</string>
+    <string name="call">Appel d\'urgence</string>
+</resources>
