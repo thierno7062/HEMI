@@ -1,2 +1,2 @@
-# HEMI
-Projet examen COVID thierno abdourahmane niang
+# THIERNO ABDOURAHMANE NIANG
+Projet examen DEV MOBILE COVID 
